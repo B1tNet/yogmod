@@ -3,6 +3,7 @@ package dev.bitnet.yogmod;
 import dev.bitnet.yogmod.blocks.DwarfishRune;
 import dev.bitnet.yogmod.blocks.ModBlocks;
 import dev.bitnet.yogmod.items.DwarfEssence;
+import dev.bitnet.yogmod.items.JaffaCake;
 import dev.bitnet.yogmod.setup.ClientProxy;
 import dev.bitnet.yogmod.setup.IProxy;
 import dev.bitnet.yogmod.setup.ModSetup;
@@ -47,6 +48,7 @@ public class YogMod {
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             event.getRegistry().register(new DwarfEssence());
+            event.getRegistry().register(new JaffaCake());
         }
 
         @SubscribeEvent
