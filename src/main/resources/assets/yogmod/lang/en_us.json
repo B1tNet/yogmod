@@ -1,4 +1,7 @@
 {
-  "block.yogmod.dwarfish_rune": "Dwarfish Rune",
-  "itemGroup.yogmod": "YogMod"
+  "itemGroup.yogmod": "YogMod",
+
+  "item.yogmod.dwarf_essence": "Essence of Dwarf",
+
+  "block.yogmod.dwarfish_rune": "Dwarfish Rune"
 }
