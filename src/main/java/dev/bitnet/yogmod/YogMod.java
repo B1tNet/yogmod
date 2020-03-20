@@ -2,6 +2,7 @@ package dev.bitnet.yogmod;
 
 import dev.bitnet.yogmod.blocks.DwarfishRune;
 import dev.bitnet.yogmod.blocks.ModBlocks;
+import dev.bitnet.yogmod.items.DwarfEssence;
 import dev.bitnet.yogmod.setup.ClientProxy;
 import dev.bitnet.yogmod.setup.IProxy;
 import dev.bitnet.yogmod.setup.ModSetup;
@@ -43,6 +44,11 @@ public class YogMod {
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
+        @SubscribeEvent
+        public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
+            event.getRegistry().register(new DwarfEssence());
+        }
+
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new DwarfishRune());
