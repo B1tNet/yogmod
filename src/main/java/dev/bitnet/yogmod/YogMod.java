@@ -1,9 +1,8 @@
 package dev.bitnet.yogmod;
 
-import dev.bitnet.yogmod.blocks.DwarfInfusedCobblestone;
-import dev.bitnet.yogmod.blocks.DwarfishRune;
-import dev.bitnet.yogmod.blocks.ModBlocks;
+import dev.bitnet.yogmod.blocks.*;
 import dev.bitnet.yogmod.items.DwarfEssence;
+import dev.bitnet.yogmod.items.DwarfSteelIngot;
 import dev.bitnet.yogmod.items.JaffaCake;
 import dev.bitnet.yogmod.setup.ClientProxy;
 import dev.bitnet.yogmod.setup.IProxy;
@@ -50,10 +49,13 @@ public class YogMod {
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             event.getRegistry().register(new DwarfEssence());
             event.getRegistry().register(new JaffaCake());
+            event.getRegistry().register(new DwarfSteelIngot());
 
             //BlockItems
             event.getRegistry().register(new BlockItem(ModBlocks.DWARFISH_RUNE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarfish_rune"));
             event.getRegistry().register(new BlockItem(ModBlocks.DWARF_INFUSED_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarf_infused_cobblestone"));
+            event.getRegistry().register(new BlockItem(ModBlocks.VOIDROCK, new Item.Properties().group(setup.itemGroup)).setRegistryName("voidrock"));
+            event.getRegistry().register(new BlockItem(ModBlocks.VOID_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("void_cobblestone"));
         }
 
         //Register the blocks
@@ -61,6 +63,8 @@ public class YogMod {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new DwarfishRune());
             event.getRegistry().register(new DwarfInfusedCobblestone());
+            event.getRegistry().register(new Voidrock());
+            event.getRegistry().register(new VoidCobblestone());
         }
     }
 }

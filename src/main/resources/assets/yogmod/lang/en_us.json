@@ -3,7 +3,10 @@
 
   "item.yogmod.dwarf_essence": "Essence of Dwarf",
   "item.yogmod.jaffa_cake": "Jaffa Cake",
+  "item.yogmod.dwarf_steel_ingot": "Dwarf Steel Ingot",
 
   "block.yogmod.dwarfish_rune": "Dwarfish Rune",
-  "block.yogmod.dwarf_infused_cobblestone": "Dwarf Infused Cobblestone"
+  "block.yogmod.dwarf_infused_cobblestone": "Dwarf Infused Cobblestone",
+  "block.yogmod.voidrock": "Voidrock",
+  "block.yogmod.void_cobblestone": "Void Cobblestone"
 }
