@@ -7,11 +7,11 @@ import net.minecraftforge.common.ToolType;
 
 public class DwarfInfusedCobblestone extends Block {
     public DwarfInfusedCobblestone() {
-        super(Properties
-                .create(Material.ROCK)
+        super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(3)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(6)
         );
         setRegistryName("dwarf_infused_cobblestone");
     }
