@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "yogmod:block/dwarfish_rune" },
+            { "model": "yogmod:block/dwarfish_rune" },
+            { "model": "yogmod:block/dwarfish_rune", "y": 180 },
+            { "model": "yogmod:block/dwarfish_rune", "y": 180 }
+        ]
+    }
+}
