@@ -1,5 +1,6 @@
 package dev.bitnet.yogmod;
 
+import dev.bitnet.yogmod.blocks.DwarfInfusedCobblestone;
 import dev.bitnet.yogmod.blocks.DwarfishRune;
 import dev.bitnet.yogmod.blocks.ModBlocks;
 import dev.bitnet.yogmod.items.DwarfEssence;
@@ -41,24 +42,25 @@ public class YogMod {
         proxy.init();
     }
 
-    // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
-    // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
         @SubscribeEvent
+
+        //Register the items
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             event.getRegistry().register(new DwarfEssence());
             event.getRegistry().register(new JaffaCake());
+
+            //BlockItems
+            event.getRegistry().register(new BlockItem(ModBlocks.DWARFISH_RUNE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarfish_rune"));
+            event.getRegistry().register(new BlockItem(ModBlocks.DWARF_INFUSED_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarf_infused_cobblestone"));
         }
 
+        //Register the blocks
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new DwarfishRune());
-        }
-
-        @SubscribeEvent
-        public static void onBlockItemsRegistry(final RegistryEvent.Register<Item> event) {
-            event.getRegistry().register(new BlockItem(ModBlocks.DWARFISH_RUNE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarfish_rune"));
+            event.getRegistry().register(new DwarfInfusedCobblestone());
         }
     }
 }
