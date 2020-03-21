@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yogmod:chocolate_bar"
+    }
+  ],
+  "result": {
+    "item": "yogmod:chocolate_chunk",
+    "count": 9
+  }
+}

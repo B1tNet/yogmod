@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "yogmod:chocolate_chunk"
+    }
+  },
+  "result": {
+    "item": "yogmod:chocolate_bar",
+    "count": 1
+  }
+}

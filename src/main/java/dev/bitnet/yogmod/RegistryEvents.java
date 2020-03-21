@@ -21,6 +21,7 @@ public class RegistryEvents {
         event.getRegistry().register(new CakeBatter());
         event.getRegistry().register(new ChocolateBar());
         event.getRegistry().register(new ChocolateChunk());
+        event.getRegistry().register(new RoastedCocoaBeans());
     }
 
     //Register the blocks

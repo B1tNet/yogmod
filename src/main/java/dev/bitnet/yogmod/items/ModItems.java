@@ -24,4 +24,7 @@ public class ModItems {
 
     @ObjectHolder("yogmod:chocolate_chunk")
     public static ChocolateChunk CHOCOLATE_CHUNK;
+
+    @ObjectHolder("yogmod:roasted_cocoa_beans")
+    public static RoastedCocoaBeans ROASTED_COCOA_BEANS;
 }

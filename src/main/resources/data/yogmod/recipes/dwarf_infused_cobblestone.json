@@ -1,20 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#e#",
-    " # "
-  ],
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yogmod:dwarf_essence"
+    },
+    {
       "item": "minecraft:cobblestone"
     },
-    "e": {
-      "item": "yogmod:dwarf_essence"
+    {
+      "item": "minecraft:cobblestone"
     }
-  },
+  ],
   "result": {
     "item": "yogmod:dwarf_infused_cobblestone",
-    "count": 4
+    "count": 2
   }
 }
