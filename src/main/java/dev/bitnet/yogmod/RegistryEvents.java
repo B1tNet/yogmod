@@ -1,9 +1,7 @@
 package dev.bitnet.yogmod;
 
 import dev.bitnet.yogmod.blocks.*;
-import dev.bitnet.yogmod.items.DwarfEssence;
-import dev.bitnet.yogmod.items.DwarfSteelIngot;
-import dev.bitnet.yogmod.items.JaffaCake;
+import dev.bitnet.yogmod.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -19,6 +17,10 @@ public class RegistryEvents {
         event.getRegistry().register(new DwarfEssence());
         event.getRegistry().register(new JaffaCake());
         event.getRegistry().register(new DwarfSteelIngot());
+        event.getRegistry().register(new Orange());
+        event.getRegistry().register(new CakeBatter());
+        event.getRegistry().register(new ChocolateBar());
+        event.getRegistry().register(new ChocolateChunk());
     }
 
     //Register the blocks

@@ -12,4 +12,16 @@ public class ModItems {
 
     @ObjectHolder("yogmod:dwarf_steel_ingot")
     public static DwarfSteelIngot DWARF_STEEL_INGOT;
+
+    @ObjectHolder("yogmod:orange")
+    public static Orange ORANGE;
+
+    @ObjectHolder("yogmod:cake_batter")
+    public static CakeBatter CAKE_BATTER;
+
+    @ObjectHolder("yogmod:chocolate_bar")
+    public static ChocolateBar CHOCOLATE_BAR;
+
+    @ObjectHolder("yogmod:chocolate_chunk")
+    public static ChocolateChunk CHOCOLATE_CHUNK;
 }
