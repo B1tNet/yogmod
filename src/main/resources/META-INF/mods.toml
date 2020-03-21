@@ -17,6 +17,8 @@ version="${version}" #mandatory
 displayName="YogMod" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://www.bitnet.dev" #optional
+# A URL to refer people to when problems occur with this mod
+issueTrackerURL="http://my.issue.tracker/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="" #optional
 # A text field displayed in the mod UI
