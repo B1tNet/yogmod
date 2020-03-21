@@ -43,19 +43,12 @@ public class YogMod {
 
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
+        //Register items
         @SubscribeEvent
-
-        //Register the items
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             event.getRegistry().register(new DwarfEssence());
             event.getRegistry().register(new JaffaCake());
             event.getRegistry().register(new DwarfSteelIngot());
-
-            //BlockItems
-            event.getRegistry().register(new BlockItem(ModBlocks.DWARFISH_RUNE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarfish_rune"));
-            event.getRegistry().register(new BlockItem(ModBlocks.DWARF_INFUSED_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarf_infused_cobblestone"));
-            event.getRegistry().register(new BlockItem(ModBlocks.VOIDROCK, new Item.Properties().group(setup.itemGroup)).setRegistryName("voidrock"));
-            event.getRegistry().register(new BlockItem(ModBlocks.VOID_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("void_cobblestone"));
         }
 
         //Register the blocks
@@ -65,6 +58,15 @@ public class YogMod {
             event.getRegistry().register(new DwarfInfusedCobblestone());
             event.getRegistry().register(new Voidrock());
             event.getRegistry().register(new VoidCobblestone());
+        }
+
+        //Register BlockItem
+        @SubscribeEvent
+        public static void onBlockItemsRegistry(final RegistryEvent.Register<Item> event) {
+            event.getRegistry().register(new BlockItem(ModBlocks.DWARFISH_RUNE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarfish_rune"));
+            event.getRegistry().register(new BlockItem(ModBlocks.DWARF_INFUSED_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("dwarf_infused_cobblestone"));
+            event.getRegistry().register(new BlockItem(ModBlocks.VOIDROCK, new Item.Properties().group(setup.itemGroup)).setRegistryName("voidrock"));
+            event.getRegistry().register(new BlockItem(ModBlocks.VOID_COBBLESTONE, new Item.Properties().group(setup.itemGroup)).setRegistryName("void_cobblestone"));
         }
     }
 }
