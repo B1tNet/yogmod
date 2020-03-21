@@ -5,14 +5,14 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class Voidrock extends Block {
-    public Voidrock() {
+public class VoidDwarfSteelOre extends Block {
+    public VoidDwarfSteelOre() {
         super(Properties.create(Material.ROCK)
-                .sound(SoundType.STONE)
-                .hardnessAndResistance(25, 1200)
-                .harvestLevel(2)
+                .hardnessAndResistance(5, 1200)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(3)
+                .sound(SoundType.STONE)
         );
-        setRegistryName("voidrock");
+        setRegistryName("void_dwarf_steel_ore");
     }
 }

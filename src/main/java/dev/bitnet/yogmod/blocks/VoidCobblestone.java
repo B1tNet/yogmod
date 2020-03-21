@@ -11,7 +11,7 @@ public class VoidCobblestone extends Block {
                 .sound(SoundType.STONE)
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)
-                .hardnessAndResistance(3)
+                .hardnessAndResistance(25, 1200)
         );
         setRegistryName("void_cobblestone");
     }

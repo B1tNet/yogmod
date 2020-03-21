@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "yogmod:block/void_redstone_ore" }
+    }
+}

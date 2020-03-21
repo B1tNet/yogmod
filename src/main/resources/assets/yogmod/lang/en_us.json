@@ -8,5 +8,13 @@
   "block.yogmod.dwarfish_rune": "Dwarfish Rune",
   "block.yogmod.dwarf_infused_cobblestone": "Dwarf Infused Cobblestone",
   "block.yogmod.voidrock": "Voidrock",
-  "block.yogmod.void_cobblestone": "Void Cobblestone"
+  "block.yogmod.void_cobblestone": "Void Cobblestone",
+  "block.yogmod.void_coal_ore": "Void Coal Ore",
+  "block.yogmod.void_iron_ore": "Void Iron Ore",
+  "block.yogmod.void_gold_ore": "Void Gold Ore",
+  "block.yogmod.void_lapis_ore": "Void Lapis Ore",
+  "block.yogmod.void_redstone_ore": "Void Redstone Ore",
+  "block.yogmod.void_diamond_ore": "Void Diamond Ore",
+  "block.yogmod.void_emerald_ore": "Void Emerald Ore",
+  "block.yogmod.void_dwarf_steel_ore": "Void Dwarf Steel Ore"
 }
