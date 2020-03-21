@@ -1,0 +1,14 @@
+{
+  "replace": false,
+
+  "values": [
+    "yogmod:deep_coal_ore",
+    "yogmod:deep_iron_ore",
+    "yogmod:deep_gold_ore",
+    "yogmod:deep_lapis_ore",
+    "yogmod:deep_redstone_ore",
+    "yogmod:deep_diamond_ore",
+    "yogmod:deep_emerald_ore",
+    "yogmod:deep_dwarf_steel_ore"
+  ]
+}

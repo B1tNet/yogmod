@@ -10,33 +10,36 @@ public class ModBlocks {
     @ObjectHolder("yogmod:dwarf_infused_cobblestone")
     public static DwarfInfusedCobblestone DWARF_INFUSED_COBBLESTONE;
 
-    @ObjectHolder("yogmod:voidrock")
-    public static Voidrock VOIDROCK;
+    @ObjectHolder("yogmod:deeprock")
+    public static Deeprock DEEPROCK;
 
-    @ObjectHolder("yogmod:void_cobblestone")
-    public static VoidCobblestone VOID_COBBLESTONE;
+    @ObjectHolder("yogmod:cobbled_deeprock")
+    public static CobbledDeeprock COBBLED_DEEPROCK;
 
-    @ObjectHolder("yogmod:void_coal_ore")
-    public static VoidCoalOre VOID_COAL_ORE;
+    @ObjectHolder("yogmod:deep_coal_ore")
+    public static DeepCoalOre DEEP_COAL_ORE;
 
-    @ObjectHolder("yogmod:void_iron_ore")
-    public static VoidIronOre VOID_IRON_ORE;
+    @ObjectHolder("yogmod:deep_iron_ore")
+    public static DeepIronOre DEEP_IRON_ORE;
 
-    @ObjectHolder("yogmod:void_gold_ore")
-    public static VoidGoldOre VOID_GOLD_ORE;
+    @ObjectHolder("yogmod:deep_gold_ore")
+    public static DeepGoldOre DEEP_GOLD_ORE;
 
-    @ObjectHolder("yogmod:void_lapis_ore")
-    public static VoidLapisOre VOID_LAPIS_ORE;
+    @ObjectHolder("yogmod:deep_lapis_ore")
+    public static DeepLapisOre DEEP_LAPIS_ORE;
 
-    @ObjectHolder("yogmod:void_redstone_ore")
-    public static VoidRedstoneOre VOID_REDSTONE_ORE;
+    @ObjectHolder("yogmod:deep_redstone_ore")
+    public static DeepRedstoneOre DEEP_REDSTONE_ORE;
 
-    @ObjectHolder("yogmod:void_diamond_ore")
-    public static VoidDiamondOre VOID_DIAMOND_ORE;
+    @ObjectHolder("yogmod:deep_diamond_ore")
+    public static DeepDiamondOre DEEP_DIAMOND_ORE;
 
-    @ObjectHolder("yogmod:void_emerald_ore")
-    public static VoidEmeraldOre VOID_EMERALD_ORE;
+    @ObjectHolder("yogmod:deep_emerald_ore")
+    public static DeepEmeraldOre DEEP_EMERALD_ORE;
 
-    @ObjectHolder("yogmod:void_dwarf_steel_ore")
-    public static VoidDwarfSteelOre VOID_DWARF_STEEL_ORE;
+    @ObjectHolder("yogmod:deep_dwarf_steel_ore")
+    public static DeepDwarfSteelOre DEEP_DWARF_STEEL_ORE;
+
+    @ObjectHolder("yogmod:dwarf_steel_block")
+    public static DwarfSteelBlock DWARF_STEEL_BLOCK;
 }

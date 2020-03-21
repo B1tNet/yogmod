@@ -7,14 +7,15 @@
 
   "block.yogmod.dwarfish_rune": "Dwarfish Rune",
   "block.yogmod.dwarf_infused_cobblestone": "Dwarf Infused Cobblestone",
-  "block.yogmod.voidrock": "Voidrock",
-  "block.yogmod.void_cobblestone": "Void Cobblestone",
-  "block.yogmod.void_coal_ore": "Void Coal Ore",
-  "block.yogmod.void_iron_ore": "Void Iron Ore",
-  "block.yogmod.void_gold_ore": "Void Gold Ore",
-  "block.yogmod.void_lapis_ore": "Void Lapis Ore",
-  "block.yogmod.void_redstone_ore": "Void Redstone Ore",
-  "block.yogmod.void_diamond_ore": "Void Diamond Ore",
-  "block.yogmod.void_emerald_ore": "Void Emerald Ore",
-  "block.yogmod.void_dwarf_steel_ore": "Void Dwarf Steel Ore"
+  "block.yogmod.deeprock": "Voidrock",
+  "block.yogmod.cobbled_deeprock": "Cobbled Deeprock",
+  "block.yogmod.deep_coal_ore": "Deep Coal Ore",
+  "block.yogmod.deep_iron_ore": "Deep Iron Ore",
+  "block.yogmod.deep_gold_ore": "Deep Gold Ore",
+  "block.yogmod.deep_lapis_ore": "Deep Lapis Ore",
+  "block.yogmod.deep_redstone_ore": "Deep Redstone Ore",
+  "block.yogmod.deep_diamond_ore": "Deep Diamond Ore",
+  "block.yogmod.deep_emerald_ore": "Deep Emerald Ore",
+  "block.yogmod.deep_dwarf_steel_ore": "Deep Dwarf Steel Ore",
+  "block.yogmod.dwarf_steel_block": "Block of Dwarf Steel"
 }
