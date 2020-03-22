@@ -27,4 +27,7 @@ public class ModItems {
 
     @ObjectHolder("yogmod:roasted_cocoa_beans")
     public static RoastedCocoaBeans ROASTED_COCOA_BEANS;
+
+    @ObjectHolder("yogmod:orange_jelly")
+    public static OrangeJelly ORANGE_JELLY;
 }

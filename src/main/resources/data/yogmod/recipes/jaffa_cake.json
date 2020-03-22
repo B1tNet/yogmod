@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "#O#",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "yogmod:chocolate_chunk"
+    },
+    "O": {
+      "item": "yogmod:orange_jelly"
+    },
+    "S": {
+      "item": "yogmod:sponge_cake"
+    }
+  },
+  "result": {
+    "item": "yogmod:jaffa_cake",
+    "count": 1
+  }
+}

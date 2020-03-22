@@ -1,5 +1,8 @@
 package dev.bitnet.yogmod.blocks;
 
+import dev.bitnet.yogmod.items.AgarAgar;
+import dev.bitnet.yogmod.items.Gelatin;
+import dev.bitnet.yogmod.items.SpongeCake;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
@@ -42,4 +45,13 @@ public class ModBlocks {
 
     @ObjectHolder("yogmod:dwarf_steel_block")
     public static DwarfSteelBlock DWARF_STEEL_BLOCK;
+
+    @ObjectHolder("yogmod:sponge_cake")
+    public static SpongeCake SPONGE_CAKE;
+
+    @ObjectHolder("yogmod:gelatin")
+    public static Gelatin GELATIN;
+
+    @ObjectHolder("yogmod:agar_agar")
+    public static AgarAgar AGAR_AGAR;
 }
