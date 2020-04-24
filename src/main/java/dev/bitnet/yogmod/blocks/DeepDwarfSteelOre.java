@@ -13,6 +13,5 @@ public class DeepDwarfSteelOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_dwarf_steel_ore");
     }
 }

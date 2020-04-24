@@ -17,6 +17,5 @@ public class ChocolateChunk extends Item {
                         .build()
                 )
         );
-        setRegistryName("chocolate_chunk");
     }
 }

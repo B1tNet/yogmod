@@ -10,6 +10,5 @@ public class JaffaCake extends Item {
                 .group(YogMod.setup.itemGroup)
                 .food(new Food.Builder().hunger(3).saturation(0.8f).build())
         );
-        setRegistryName("jaffa_cake");
     }
 }

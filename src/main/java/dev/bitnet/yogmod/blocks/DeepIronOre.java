@@ -13,6 +13,5 @@ public class DeepIronOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_iron_ore");
     }
 }

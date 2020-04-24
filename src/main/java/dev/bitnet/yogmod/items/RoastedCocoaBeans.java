@@ -8,6 +8,5 @@ public class RoastedCocoaBeans extends Item {
         super(new Item.Properties()
                 .group(YogMod.setup.itemGroup)
         );
-        setRegistryName("roasted_cocoa_beans");
     }
 }

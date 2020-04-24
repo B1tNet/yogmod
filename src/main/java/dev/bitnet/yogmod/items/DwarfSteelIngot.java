@@ -8,6 +8,5 @@ public class DwarfSteelIngot extends Item {
         super(new Item.Properties()
                 .group(YogMod.setup.itemGroup)
         );
-        setRegistryName("dwarf_steel_ingot");
     }
 }

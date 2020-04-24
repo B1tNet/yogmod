@@ -13,6 +13,5 @@ public class CobbledDeeprock extends Block {
                 .harvestLevel(2)
                 .hardnessAndResistance(25, 1200)
         );
-        setRegistryName("cobbled_deeprock");
     }
 }

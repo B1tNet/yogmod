@@ -13,6 +13,5 @@ public class Deeprock extends Block {
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
         );
-        setRegistryName("deeprock");
     }
 }

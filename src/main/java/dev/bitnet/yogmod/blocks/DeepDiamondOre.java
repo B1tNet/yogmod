@@ -13,6 +13,5 @@ public class DeepDiamondOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_diamond_ore");
     }
 }

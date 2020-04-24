@@ -13,6 +13,5 @@ public class DwarfSteelBlock extends Block {
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)
         );
-        setRegistryName("dwarf_steel_block");
     }
 }

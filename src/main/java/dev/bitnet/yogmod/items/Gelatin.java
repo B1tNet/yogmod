@@ -8,6 +8,5 @@ public class Gelatin extends Item {
         super(new Item.Properties()
                 .group(YogMod.setup.itemGroup)
         );
-        setRegistryName("gelatin");
     }
 }

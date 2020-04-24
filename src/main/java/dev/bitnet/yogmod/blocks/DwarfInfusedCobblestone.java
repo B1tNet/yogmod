@@ -13,6 +13,5 @@ public class DwarfInfusedCobblestone extends Block {
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(6)
         );
-        setRegistryName("dwarf_infused_cobblestone");
     }
 }

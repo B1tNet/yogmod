@@ -8,6 +8,5 @@ public class AgarAgar extends Item {
         super(new Properties()
                 .group(YogMod.setup.itemGroup)
         );
-        setRegistryName("agar_agar");
     }
 }

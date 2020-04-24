@@ -17,6 +17,5 @@ public class ChocolateBar extends Item {
                         .build()
                 )
         );
-        setRegistryName("chocolate_bar");
     }
 }

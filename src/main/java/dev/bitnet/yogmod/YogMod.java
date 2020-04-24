@@ -1,9 +1,6 @@
 package dev.bitnet.yogmod;
 
-import dev.bitnet.yogmod.setup.ClientProxy;
-import dev.bitnet.yogmod.setup.IProxy;
-import dev.bitnet.yogmod.setup.ModSetup;
-import dev.bitnet.yogmod.setup.ServerProxy;
+import dev.bitnet.yogmod.setup.*;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -15,6 +12,8 @@ import org.apache.logging.log4j.Logger;
 @Mod("yogmod")
 public class YogMod {
 
+    public static final String MODID = "yogmod";
+
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
     public static ModSetup setup = new ModSetup();
@@ -24,6 +23,8 @@ public class YogMod {
     public YogMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+
+        Registration.init();
     }
 
     private void setup(final FMLCommonSetupEvent event) {

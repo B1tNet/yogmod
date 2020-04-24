@@ -13,6 +13,5 @@ public class DwarfishRune extends Block {
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)
         );
-        setRegistryName("dwarfish_rune");
     }
 }

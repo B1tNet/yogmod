@@ -15,7 +15,6 @@ public class SunflowerSeedMilk extends Item {
                         .build()
                 )
         );
-        setRegistryName("sunflower_seed_milk");
     }
 
     @Override

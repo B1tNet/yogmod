@@ -15,6 +15,5 @@ public class OrangeJelly extends Item {
                         .build()
                 )
         );
-        setRegistryName("orange_jelly");
     }
 }

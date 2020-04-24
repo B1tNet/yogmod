@@ -13,6 +13,5 @@ public class DeepRedstoneOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_redstone_ore");
     }
 }

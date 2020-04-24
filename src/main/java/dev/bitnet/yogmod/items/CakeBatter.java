@@ -17,6 +17,5 @@ public class CakeBatter extends Item {
                         .build()
                 )
         );
-        setRegistryName("cake_batter");
     }
 }

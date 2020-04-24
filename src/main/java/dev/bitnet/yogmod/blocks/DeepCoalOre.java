@@ -13,6 +13,5 @@ public class DeepCoalOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_coal_ore");
     }
 }

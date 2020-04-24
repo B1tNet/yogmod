@@ -13,6 +13,5 @@ public class DeepEmeraldOre extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.STONE)
         );
-        setRegistryName("deep_emerald_ore");
     }
 }

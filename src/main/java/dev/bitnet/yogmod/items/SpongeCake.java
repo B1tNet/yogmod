@@ -14,6 +14,5 @@ public class SpongeCake extends Item {
                         .build()
                 )
         );
-        setRegistryName("sponge_cake");
     }
 }

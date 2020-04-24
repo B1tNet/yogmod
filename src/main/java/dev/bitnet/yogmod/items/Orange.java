@@ -10,6 +10,5 @@ public class Orange extends Item {
                 .group(YogMod.setup.itemGroup)
                 .food(new Food.Builder().saturation(0.2f).hunger(2).build())
         );
-        setRegistryName("orange");
     }
 }
